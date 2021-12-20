@@ -3,7 +3,7 @@ def computeLCD(x, y):
         small = y 
     else: 
         small = x 
-    for i in range(1, small+1): 
+    for i in range(2, small+1): 
         if((x % i == 0) and (y % i == 0)): 
             return i
             
